@@ -1,0 +1,346 @@
+/* MSM Portal Design Tokens — Auto-generated from tokens.json */
+/* Usage: rgba(var(--color-text-brand-default-rgb), 0.5) */
+/* Do not edit manually. Run: node scripts/generate-css-variables.mjs */
+
+/* ── Colors ──────────────────────────────────────────── */
+:root {
+  /* Text and foreground colors */
+  --color-text-neutral-default: #212121;
+  --color-text-neutral-default-rgb: 33, 33, 33;
+  --color-text-neutral-subtle: #5D5D5D;
+  --color-text-neutral-subtle-rgb: 93, 93, 93;
+  --color-text-brand-default: #0280FB;
+  --color-text-brand-default-rgb: 2, 128, 251;
+  --color-text-danger-default: #D32F2F;
+  --color-text-danger-default-rgb: 211, 47, 47;
+  --color-text-success-default: #2E7D32;
+  --color-text-success-default-rgb: 46, 125, 50;
+  --color-text-warning-default: #ED6C02;
+  --color-text-warning-default-rgb: 237, 108, 2;
+  --color-text-information-default: #0288D1;
+  --color-text-information-default-rgb: 2, 136, 209;
+  --color-text-disabled: #9E9E9E;
+  --color-text-disabled-rgb: 158, 158, 158;
+  --color-text-inverse: #FFFFFF;
+  --color-text-inverse-rgb: 255, 255, 255;
+  --color-text-link-default: #0280FB;
+  --color-text-link-default-rgb: 2, 128, 251;
+  --color-text-link-hovered: #0260C9;
+  --color-text-link-hovered-rgb: 2, 96, 201;
+  --color-text-link-pressed: #014599;
+  --color-text-link-pressed-rgb: 1, 69, 153;
+
+  /* Surface and background colors */
+  --color-bg-neutral-default: #FFFFFF;
+  --color-bg-neutral-default-rgb: 255, 255, 255;
+  --color-bg-neutral-subtle: #F8F8F8;
+  --color-bg-neutral-subtle-rgb: 248, 248, 248;
+  --color-bg-neutral-subtler: #F0F0F0;
+  --color-bg-neutral-subtler-rgb: 240, 240, 240;
+  --color-bg-neutral-hovered: #EEEEEE;
+  --color-bg-neutral-hovered-rgb: 238, 238, 238;
+  --color-bg-neutral-pressed: #E0E0E0;
+  --color-bg-neutral-pressed-rgb: 224, 224, 224;
+  --color-bg-brand-default: #0280FB;
+  --color-bg-brand-default-rgb: 2, 128, 251;
+  --color-bg-brand-hovered: #0260C9;
+  --color-bg-brand-hovered-rgb: 2, 96, 201;
+  --color-bg-brand-pressed: #014599;
+  --color-bg-brand-pressed-rgb: 1, 69, 153;
+  --color-bg-danger-default: #FFEBEE;
+  --color-bg-danger-default-rgb: 255, 235, 238;
+  --color-bg-danger-bold: #D32F2F;
+  --color-bg-danger-bold-rgb: 211, 47, 47;
+  --color-bg-success-default: #E8F5E9;
+  --color-bg-success-default-rgb: 232, 245, 233;
+  --color-bg-success-bold: #2E7D32;
+  --color-bg-success-bold-rgb: 46, 125, 50;
+  --color-bg-warning-default: #FFF3E0;
+  --color-bg-warning-default-rgb: 255, 243, 224;
+  --color-bg-warning-bold: #ED6C02;
+  --color-bg-warning-bold-rgb: 237, 108, 2;
+  --color-bg-information-default: #E1F5FE;
+  --color-bg-information-default-rgb: 225, 245, 254;
+  --color-bg-information-bold: #0288D1;
+  --color-bg-information-bold-rgb: 2, 136, 209;
+  --color-bg-disabled: #F5F5F5;
+  --color-bg-disabled-rgb: 245, 245, 245;
+  --color-bg-selected-default: #E3F2FD;
+  --color-bg-selected-default-rgb: 227, 242, 253;
+  --color-bg-selected-bold: #0280FB;
+  --color-bg-selected-bold-rgb: 2, 128, 251;
+  --color-bg-input-default: #FFFFFF;
+  --color-bg-input-default-rgb: 255, 255, 255;
+  --color-bg-input-hovered: #FAFAFA;
+  --color-bg-input-hovered-rgb: 250, 250, 250;
+  --color-bg-input-disabled: #F5F5F5;
+  --color-bg-input-disabled-rgb: 245, 245, 245;
+
+  /* Border colors */
+  --color-border-neutral-default: #DFDFDF;
+  --color-border-neutral-default-rgb: 223, 223, 223;
+  --color-border-neutral-subtle: #EEEEEE;
+  --color-border-neutral-subtle-rgb: 238, 238, 238;
+  --color-border-brand-default: #0280FB;
+  --color-border-brand-default-rgb: 2, 128, 251;
+  --color-border-danger-default: #D32F2F;
+  --color-border-danger-default-rgb: 211, 47, 47;
+  --color-border-success-default: #2E7D32;
+  --color-border-success-default-rgb: 46, 125, 50;
+  --color-border-warning-default: #ED6C02;
+  --color-border-warning-default-rgb: 237, 108, 2;
+  --color-border-disabled: #E0E0E0;
+  --color-border-disabled-rgb: 224, 224, 224;
+  --color-border-input-default: #DFDFDF;
+  --color-border-input-default-rgb: 223, 223, 223;
+  --color-border-input-focused: #0280FB;
+  --color-border-input-focused-rgb: 2, 128, 251;
+  --color-border-input-error: #D32F2F;
+  --color-border-input-error-rgb: 211, 47, 47;
+
+  /* Icon colors */
+  --color-icon-neutral-default: #212121;
+  --color-icon-neutral-default-rgb: 33, 33, 33;
+  --color-icon-neutral-subtle: #757575;
+  --color-icon-neutral-subtle-rgb: 117, 117, 117;
+  --color-icon-brand-default: #0280FB;
+  --color-icon-brand-default-rgb: 2, 128, 251;
+  --color-icon-danger-default: #D32F2F;
+  --color-icon-danger-default-rgb: 211, 47, 47;
+  --color-icon-success-default: #2E7D32;
+  --color-icon-success-default-rgb: 46, 125, 50;
+  --color-icon-warning-default: #ED6C02;
+  --color-icon-warning-default-rgb: 237, 108, 2;
+  --color-icon-information-default: #0288D1;
+  --color-icon-information-default-rgb: 2, 136, 209;
+  --color-icon-disabled: #BDBDBD;
+  --color-icon-disabled-rgb: 189, 189, 189;
+  --color-icon-inverse: #FFFFFF;
+  --color-icon-inverse-rgb: 255, 255, 255;
+}
+
+/* ── Spacing ─────────────────────────────────────────── */
+:root {
+  /* Spacing — base unit: 8px */
+  --spacing-0-5: 4px;
+  --spacing-1: 8px;
+  --spacing-1-5: 12px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
+  --spacing-5: 40px;
+  --spacing-6: 48px;
+}
+
+/* ── Typography ──────────────────────────────────────── */
+:root {
+  /* Typography scale */
+  --typography-h-1-size: 28px;
+  --typography-h-1-weight: 700;
+  --typography-h-1-line-height: 36px;
+  --typography-h-2-size: 24px;
+  --typography-h-2-weight: 700;
+  --typography-h-2-line-height: 32px;
+  --typography-h-3-size: 20px;
+  --typography-h-3-weight: 600;
+  --typography-h-3-line-height: 28px;
+  --typography-h-4-size: 16px;
+  --typography-h-4-weight: 600;
+  --typography-h-4-line-height: 24px;
+  --typography-h-5-size: 14px;
+  --typography-h-5-weight: 600;
+  --typography-h-5-line-height: 20px;
+  --typography-body-1-body-size: 14px;
+  --typography-body-1-body-weight: 400;
+  --typography-body-1-body-line-height: 20px;
+  --typography-body-2-size: 13px;
+  --typography-body-2-weight: 400;
+  --typography-body-2-line-height: 18px;
+  --typography-body-2-special-size: 12px;
+  --typography-body-2-special-weight: 500;
+  --typography-body-2-special-line-height: 16px;
+  --typography-body-3-size: 11px;
+  --typography-body-3-weight: 400;
+  --typography-body-3-line-height: 16px;
+}
+
+/* ── Border Radius ───────────────────────────────────── */
+:root {
+  /* Border radius */
+  --radius-small: 2px;
+  --radius-default: 4px;
+  --radius-large: 8px;
+  --radius-circle: 50%;
+}
+
+/* ── Elevation ───────────────────────────────────────── */
+:root {
+  /* Elevation shadows */
+  --elevation-sunken-surface: #F8F8F8;
+  --elevation-sunken-surface-rgb: 248, 248, 248;
+  --elevation-sunken-shadow: none;
+  --elevation-default-surface: #FFFFFF;
+  --elevation-default-surface-rgb: 255, 255, 255;
+  --elevation-default-shadow: none;
+  --elevation-raised-surface: #FFFFFF;
+  --elevation-raised-surface-rgb: 255, 255, 255;
+  --elevation-raised-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --elevation-overlay-surface: #FFFFFF;
+  --elevation-overlay-surface-rgb: 255, 255, 255;
+  --elevation-overlay-shadow: 0 4px 16px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* ── Animation ───────────────────────────────────────── */
+:root {
+  /* Animation durations */
+  --duration-instant: 0ms;
+  --duration-fast: 100ms;
+  --duration-normal: 200ms;
+  --duration-slow: 300ms;
+  --duration-slower: 500ms;
+
+  /* Animation easings */
+  --easing-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --easing-enter: cubic-bezier(0.0, 0, 0.2, 1);
+  --easing-exit: cubic-bezier(0.4, 0, 1, 1);
+  --easing-sharp: cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+/* ── Breakpoints ─────────────────────────────────────── */
+:root {
+  /* Breakpoints */
+  --breakpoint-xs: 0px;
+  --breakpoint-sm: 600px;
+  --breakpoint-md: 900px;
+  --breakpoint-lg: 1200px;
+  --breakpoint-xl: 1536px;
+}
+
+/* ── Dark Mode ───────────────────────────────────────── */
+html[data-theme='dark'] {
+  /* dark: text */
+  --color-text-neutral-default: #E0E0E0;
+  --color-text-neutral-default-rgb: 224, 224, 224;
+  --color-text-neutral-subtle: #9E9E9E;
+  --color-text-neutral-subtle-rgb: 158, 158, 158;
+  --color-text-brand-default: #42A5F5;
+  --color-text-brand-default-rgb: 66, 165, 245;
+  --color-text-danger-default: #EF5350;
+  --color-text-danger-default-rgb: 239, 83, 80;
+  --color-text-success-default: #66BB6A;
+  --color-text-success-default-rgb: 102, 187, 106;
+  --color-text-warning-default: #FFA726;
+  --color-text-warning-default-rgb: 255, 167, 38;
+  --color-text-information-default: #29B6F6;
+  --color-text-information-default-rgb: 41, 182, 246;
+  --color-text-disabled: #616161;
+  --color-text-disabled-rgb: 97, 97, 97;
+  --color-text-inverse: #212121;
+  --color-text-inverse-rgb: 33, 33, 33;
+  --color-text-link-default: #42A5F5;
+  --color-text-link-default-rgb: 66, 165, 245;
+  --color-text-link-hovered: #64B5F6;
+  --color-text-link-hovered-rgb: 100, 181, 246;
+  --color-text-link-pressed: #90CAF9;
+  --color-text-link-pressed-rgb: 144, 202, 249;
+
+  /* dark: background */
+  --color-bg-neutral-default: #121212;
+  --color-bg-neutral-default-rgb: 18, 18, 18;
+  --color-bg-neutral-subtle: #1E1E1E;
+  --color-bg-neutral-subtle-rgb: 30, 30, 30;
+  --color-bg-neutral-subtler: #2C2C2C;
+  --color-bg-neutral-subtler-rgb: 44, 44, 44;
+  --color-bg-neutral-hovered: #333333;
+  --color-bg-neutral-hovered-rgb: 51, 51, 51;
+  --color-bg-neutral-pressed: #3D3D3D;
+  --color-bg-neutral-pressed-rgb: 61, 61, 61;
+  --color-bg-brand-default: #1565C0;
+  --color-bg-brand-default-rgb: 21, 101, 192;
+  --color-bg-brand-hovered: #1976D2;
+  --color-bg-brand-hovered-rgb: 25, 118, 210;
+  --color-bg-brand-pressed: #1E88E5;
+  --color-bg-brand-pressed-rgb: 30, 136, 229;
+  --color-bg-danger-default: #3E1A1A;
+  --color-bg-danger-default-rgb: 62, 26, 26;
+  --color-bg-danger-bold: #C62828;
+  --color-bg-danger-bold-rgb: 198, 40, 40;
+  --color-bg-success-default: #1B3D1E;
+  --color-bg-success-default-rgb: 27, 61, 30;
+  --color-bg-success-bold: #2E7D32;
+  --color-bg-success-bold-rgb: 46, 125, 50;
+  --color-bg-warning-default: #3E2C14;
+  --color-bg-warning-default-rgb: 62, 44, 20;
+  --color-bg-warning-bold: #E65100;
+  --color-bg-warning-bold-rgb: 230, 81, 0;
+  --color-bg-information-default: #0D2940;
+  --color-bg-information-default-rgb: 13, 41, 64;
+  --color-bg-information-bold: #0277BD;
+  --color-bg-information-bold-rgb: 2, 119, 189;
+  --color-bg-disabled: #2C2C2C;
+  --color-bg-disabled-rgb: 44, 44, 44;
+  --color-bg-selected-default: #0D2940;
+  --color-bg-selected-default-rgb: 13, 41, 64;
+  --color-bg-selected-bold: #1565C0;
+  --color-bg-selected-bold-rgb: 21, 101, 192;
+  --color-bg-input-default: #1E1E1E;
+  --color-bg-input-default-rgb: 30, 30, 30;
+  --color-bg-input-hovered: #252525;
+  --color-bg-input-hovered-rgb: 37, 37, 37;
+  --color-bg-input-disabled: #2C2C2C;
+  --color-bg-input-disabled-rgb: 44, 44, 44;
+
+  /* dark: border */
+  --color-border-neutral-default: #3D3D3D;
+  --color-border-neutral-default-rgb: 61, 61, 61;
+  --color-border-neutral-subtle: #2C2C2C;
+  --color-border-neutral-subtle-rgb: 44, 44, 44;
+  --color-border-brand-default: #42A5F5;
+  --color-border-brand-default-rgb: 66, 165, 245;
+  --color-border-danger-default: #EF5350;
+  --color-border-danger-default-rgb: 239, 83, 80;
+  --color-border-success-default: #66BB6A;
+  --color-border-success-default-rgb: 102, 187, 106;
+  --color-border-warning-default: #FFA726;
+  --color-border-warning-default-rgb: 255, 167, 38;
+  --color-border-disabled: #3D3D3D;
+  --color-border-disabled-rgb: 61, 61, 61;
+  --color-border-input-default: #4D4D4D;
+  --color-border-input-default-rgb: 77, 77, 77;
+  --color-border-input-focused: #42A5F5;
+  --color-border-input-focused-rgb: 66, 165, 245;
+  --color-border-input-error: #EF5350;
+  --color-border-input-error-rgb: 239, 83, 80;
+
+  /* dark: icon */
+  --color-icon-neutral-default: #E0E0E0;
+  --color-icon-neutral-default-rgb: 224, 224, 224;
+  --color-icon-neutral-subtle: #9E9E9E;
+  --color-icon-neutral-subtle-rgb: 158, 158, 158;
+  --color-icon-brand-default: #42A5F5;
+  --color-icon-brand-default-rgb: 66, 165, 245;
+  --color-icon-danger-default: #EF5350;
+  --color-icon-danger-default-rgb: 239, 83, 80;
+  --color-icon-success-default: #66BB6A;
+  --color-icon-success-default-rgb: 102, 187, 106;
+  --color-icon-warning-default: #FFA726;
+  --color-icon-warning-default-rgb: 255, 167, 38;
+  --color-icon-information-default: #29B6F6;
+  --color-icon-information-default-rgb: 41, 182, 246;
+  --color-icon-disabled: #616161;
+  --color-icon-disabled-rgb: 97, 97, 97;
+  --color-icon-inverse: #212121;
+  --color-icon-inverse-rgb: 33, 33, 33;
+
+  /* dark: elevation */
+  --elevation-sunken-surface: #0A0A0A;
+  --elevation-sunken-surface-rgb: 10, 10, 10;
+  --elevation-default-surface: #121212;
+  --elevation-default-surface-rgb: 18, 18, 18;
+  --elevation-raised-surface: #1E1E1E;
+  --elevation-raised-surface-rgb: 30, 30, 30;
+  --elevation-raised-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --elevation-overlay-surface: #2C2C2C;
+  --elevation-overlay-surface-rgb: 44, 44, 44;
+  --elevation-overlay-shadow: 0 4px 16px rgba(0, 0, 0, 0.4), 0 2px 6px rgba(0, 0, 0, 0.3);
+}
