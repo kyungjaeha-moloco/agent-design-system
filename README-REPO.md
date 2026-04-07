@@ -2,6 +2,8 @@
 
 AI-readable design system for MSM Portal frontend development. 17 JSON files that define tokens, components, patterns, and conventions for agent-driven UI code generation.
 
+> **Related:** [inspect](https://github.com/kyungjaeha-moloco/inspect) — Product Improvement Agent that uses this design system to power Chrome Extension-based UI modifications.
+
 ## What This Is
 
 A structured knowledge base that AI agents (Claude Code, etc.) read before writing UI code. Instead of relying on human memory of design guidelines, agents consult these JSON files to ensure every generated component follows the exact same rules.
